@@ -1,0 +1,155 @@
+.box-item-carousel {
+  margin: 0;
+}
+.overflow-visible {
+  overflow: visible !important;
+}
+#mainnav-mobi {
+  display: none !important;
+}
+@media (max-width: 1024px) {
+  .nav-wrap {
+    display: none;
+  }
+  #mainnav-mobi {
+    display: block !important;
+  }
+}
+
+.slide-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 25px;
+}
+.slide-font-2 {
+  line-height: 1.2;
+}
+@media (max-width: 575px) {
+  .slide-font-2 {
+    line-height: 45px;
+    font-size: 45px;
+  }
+  .slide-content {
+    row-gap: 20px;
+  }
+}
+.rev_slider_wrapper .tp-bullets {
+  width: 32;
+  height: 12;
+  top: 100%;
+  transform: matrix(1, 0, 0, 1, -16, -42);
+  left: 50%;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.rev_slider_wrapper .tp-bullets .tp-bullet {
+  position: static;
+}
+.rev_slider_wrapper:hover .tp-bullets {
+  color: transparent;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+.fadeInTab {
+  animation: fadeInTab 0.5s ease-in-out;
+}
+@keyframes fadeInTab {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.faq-1 .item-faq .content-item-faq {
+  display: block;
+  border: none !important;
+}
+.faq-1 .item-faq.active .content-item-faq {
+  padding: 11px 0px;
+  border-bottom: 2px solid #e8e8e8 !important;
+}
+.faq-1 .title-heading-faq {
+  padding: 11px 0px;
+}
+.faq-1 .item-faq .title-heading-faq::after {
+  top: 6px !important;
+  z-index: 2;
+}
+.faq-1 .item-faq .title-heading-faq::before {
+  top: 6px !important;
+  z-index: 2;
+}
+.faq-2 .content-item-faq {
+  transition: 0.35s;
+  display: block;
+  height: 0px;
+  overflow: hidden;
+}
+#mainnav-mobi .menu {
+  height: 0px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+#mainnav-mobi .sub-menu {
+  height: 0px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+#mainnav-mobi {
+  overflow: scroll;
+  max-height: calc(100vh - 90px);
+}
+.rev_slider_wrapper .swiper {
+  height: 730px;
+}
+
+.rev_slider_wrapper .swiper .slide-content {
+  padding-bottom: 28px;
+  padding-left: 5px;
+}
+@media (max-width: 1200px) {
+  .rev_slider_wrapper .swiper {
+    height: 600px;
+  }
+}
+@media (max-width: 992px) {
+  .rev_slider_wrapper .swiper {
+    height: 500px;
+  }
+  .rev_slider_wrapper .swiper .slide-content {
+    padding-bottom: 0px;
+  }
+}
+.post.post-standar .content-post {
+  padding-left: 3.7%;
+  padding-right: 3.7%;
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  .cl-content-wp {
+    height: 330px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .widget-footer {
+    float: left;
+    padding: 0px 0px !important;
+  }
+}
+.tfSubscribeMsg {
+  display: none;
+  max-height: 0px;
+
+  overflow: hidden;
+}
+.tfSubscribeMsg.active {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-height: 180px;
+  display: block;
+}
