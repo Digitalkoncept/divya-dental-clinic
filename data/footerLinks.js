@@ -3,12 +3,12 @@ export const contactDetails = [
   {
     id: 1,
     icon: "fas fa-map-marker-alt flat-icon-footer",
-    text: "66 broklyant, new York India 3269 road.",
+    text: "DIVYA DENTAL CLINIC: Shop No: FF-32, First Floor, Shipra Riviera Tower, Shipra Riviera, Gyan Khand III, Indirapuram, Ghaziabad, Uttar Pradesh 201014",
   },
   {
     id: 2,
     icon: "fa fa-phone-alt flat-icon-footer",
-    text: <a href="tel:0123456789">012 345 678 9101</a>,
+    text: <a href="tel:08448521382">08448521382</a>,
   },
   {
     id: 3,
