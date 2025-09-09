@@ -250,7 +250,7 @@ export default function Footer1() {
                 </a>
               </div>
               <h3 className="copyright">
-                © DigitalKoncept {new Date().getFullYear()} | all rights reserved
+                © Divya Dental Clinic {new Date().getFullYear()} | all rights reserved
               </h3>
               <ul className="list-icon-bottom">
                 <li className="bottom-icon-active">
