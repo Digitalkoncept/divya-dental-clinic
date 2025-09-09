@@ -89,10 +89,8 @@ export default function Contact() {
                     data-smobile={8}
                   />
                   <ul>
-                    <li className="sub-box">
-                      Office Telephone : 0029129102320
-                    </li>
-                    <li className="sub-box">Mobile : 000 2324 39493</li>
+                  
+                    <li className="sub-box">Mobile : +918448521382</li>
                   </ul>
                   <div
                     className="themesflat-spacer clearfix"
@@ -125,8 +123,8 @@ export default function Contact() {
                     data-smobile={8}
                   />
                   <ul>
-                    <li className="sub-box">Main Email : name@website.com</li>
-                    <li className="sub-box">Inquiries : Info@orex.com</li>
+                    <li className="sub-box">Main Email : clinicdivyadental@gmail.com</li>
+                    
                   </ul>
                   <div
                     className="themesflat-spacer clearfix"

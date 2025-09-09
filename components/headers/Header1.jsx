@@ -44,14 +44,7 @@ export default function Header1() {
                   </a>
                 </div>
               </div>
-              <div className="button-header">
-                <Link
-                  href={`/book-appointment`}
-                  className="themesflat-button bg-accent btn-header"
-                >
-                  <span>Get Appointment</span>
-                </Link>
-              </div>
+              
             </div>
           </div>
           <MobileMenuToggle />

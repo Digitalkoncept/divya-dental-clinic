@@ -36,12 +36,7 @@ export const menuItems = [
       { title: "Blog Details", href: "/blog-details" },
     ],
   },
-  {
-    title: "Book Appointment",
-    href: "/book-appointment",
-    className: "",
-    subMenu: [],
-  },
+
   {
     title: "Contact",
     href: "/contact",

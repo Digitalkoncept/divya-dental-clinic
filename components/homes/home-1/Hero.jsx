@@ -11,6 +11,7 @@ export default function Hero() {
         <div className="swiper-container">
           <Swiper
             modules={[Pagination, Navigation]}
+            loop={true}
             pagination={{
               el: ".sdh",
               bulletActiveClass: "selected",
@@ -25,83 +26,59 @@ export default function Hero() {
               nextEl: ".snbdn1",
             }}
           >
-            {/* Slide 1 */}
             <SwiperSlide className="swiper-slide">
-              <img
-                src="/assets/image/slides/slider1.webp"
-                alt="image"
-                style={{
-                  width: "100%",
-                  objectFit: "cover",
-                  position: "absolute",
+  <img
+    src="/assets/image/slides/Banner-1.webp"
+    alt="image"
+    className="w-100 img-fluid banner-img"
+  />
+  <div className="container h-100 d-flex align-items-center">
+    <div className="slide-content text-center text-white">
+      <div className="slide-layer slide-font-1 d-none d-md-block">
+        WE USE LATEST MEDICAL TECHNOLOGY
+      </div>
+      <div className="title">
+        <div className="slide-layer slide-font-2">Let Us Brighten</div>
+        <div className="slide-layer slide-font-2">Your Smile</div>
+      </div>
+      <div className="slide-layer mt-3">
+        <Link
+          href={`/about-us`}
+          className="themesflat-button bg-accent big2"
+        >
+          <span>Who We Are</span>
+        </Link>
+      </div>
+    </div>
+  </div>
+</SwiperSlide>
+<SwiperSlide className="swiper-slide">
+  <img
+    src="/assets/image/slides/Banner-2.webp"
+    alt="image"
+    className="w-100 img-fluid banner-img"
+  />
+  <div className="container h-100 d-flex align-items-center">
+    <div className="slide-content text-center text-white">
+      <div className="slide-layer slide-font-1 d-none d-md-block">
+        WE USE LATEST MEDICAL TECHNOLOGY
+      </div>
+      <div className="title">
+        <div className="slide-layer slide-font-2">Let Us Brighten</div>
+        <div className="slide-layer slide-font-2">Your Smile</div>
+      </div>
+      <div className="slide-layer mt-3">
+        <Link
+          href={`/about-us`}
+          className="themesflat-button bg-accent big2"
+        >
+          <span>Who We Are</span>
+        </Link>
+      </div>
+    </div>
+  </div>
+</SwiperSlide>
 
-                  top: 0,
-                  left: 0,
-                  height: "100%",
-                  zIndex: -1,
-                }}
-              />
-              <div className="container h-100">
-                <div className="slide-content">
-                  <div className="slide-layer slide-font-1">
-                    WE USE LATEST MEDICAL TECHNOLOGY
-                  </div>
-                  <div className="title">
-                    <div className="slide-layer slide-font-2">
-                      Let Us Brighten
-                    </div>
-                    <div className="slide-layer slide-font-2">Your Smile</div>{" "}
-                  </div>
-                  <div className="slide-layer">
-                    <Link
-                      href={`/about-us`}
-                      className="themesflat-button bg-accent big2"
-                    >
-                      <span>Who We Are</span>
-                    </Link>
-                  </div>
-                </div>{" "}
-              </div>
-            </SwiperSlide>
-            {/* End Slide 1 */}
-            {/* Slide 2 */}
-            <SwiperSlide className="swiper-slide">
-              <img
-                src="/assets/image/slides/slider1.webp"
-                alt="image"
-                style={{
-                  width: "100%",
-                  objectFit: "cover",
-                  position: "absolute",
-
-                  top: 0,
-                  left: 0,
-                  height: "100%",
-                  zIndex: -1,
-                }}
-              />
-              <div className="container h-100">
-                <div className="slide-content">
-                  <div className="slide-layer slide-font-1">
-                    WE USE LATEST MEDICAL TECHNOLOGY
-                  </div>
-                  <div className="title">
-                    <div className="slide-layer slide-font-2">
-                      Let Us Brighten
-                    </div>
-                    <div className="slide-layer slide-font-2">Your Smile</div>{" "}
-                  </div>
-                  <div className="slide-layer">
-                    <Link
-                      href={`/about-us`}
-                      className="themesflat-button bg-accent big2"
-                    >
-                      <span>Who We Are</span>
-                    </Link>
-                  </div>
-                </div>{" "}
-              </div>
-            </SwiperSlide>
           </Swiper>
           {/* Add Pagination if needed */}
           <div className="tp-bullets custom horizontal nav-pos-hor-center nav-pos-ver-bottom nav-dir-horizontal noSwipe sdh"></div>

@@ -153,3 +153,19 @@
   max-height: 180px;
   display: block;
 }
+
+.banner-img {
+  object-fit: cover;
+  height: auto;
+  max-height: 80vh; /* keeps mobile height reasonable */
+}
+
+/* Mobile-specific height control */
+@media (max-width: 767px) {
+  .banner-img {
+    max-height: 60vh;
+  }
+  .slide-content {
+    font-size: 14px;
+  }
+}
