@@ -1,4 +1,5 @@
 // Array of contact details
+import { servicesData } from "./servicesData";
 export const contactDetails = [
   {
     id: 1,
@@ -64,32 +65,14 @@ export const recentPosts = [
 ];
 
 // Array of services
-export const services = [
-  {
-    id: 1,
-    icon: "fa fa-square",
-    text: "Brand Design",
-    link: "/service-details",
-  },
-  {
-    id: 2,
-    icon: "fa fa-square",
-    text: "Regular Graphics",
-    link: "/service-details",
-  },
-  {
-    id: 3,
-    icon: "fa fa-square",
-    text: "Devolopment Worker",
-    link: "/service-details",
-  },
-  {
-    id: 4,
-    icon: "fa fa-square",
-    text: "Ui/Ux Design",
-    link: "/service-details",
-  },
-];
+export const services = servicesData.slice(0,3).map((service) => ({
+  id: service.id,
+  icon: service.icon || "fa fa-square", // Agar icon defined nahi hai
+  text: service.title,                  // Service ka title
+  link: `/${service.slug}`, // Dynamic link
+  slug: service.slug,                   // Slug for dynamic route
+}));
+
 
 export const services2 = [
   {
