@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { serviceItems } from "@/data/services";
+import { servicesData } from "@/data/servicesData";
 export default function Services() {
   return (
     <section className="fl-row intro-middle">
@@ -26,8 +26,8 @@ export default function Services() {
           </div>
         </div>
         <div className="row">
-          {serviceItems.map((item) => (
-            <div key={item.id} className="col-md-4">
+          {servicesData.slice(0,3).map((item,idx) => (
+            <div key={idx} className="col-md-4">
               <div
                 className="box-item wow fadeInUp"
                 data-wow-delay={item.animationDelay}
@@ -35,7 +35,7 @@ export default function Services() {
                 <div className="img">
                   <Image
                     alt="image"
-                    src={item.imageSrc}
+                    src={item.images[0]}
                     width={370}
                     height={240}
                   />
@@ -43,15 +43,15 @@ export default function Services() {
                 <div className="box-wrap">
                   <div className="title">
                     {/* Hardcoded link */}
-                    <Link href="/service-details">{item.title}</Link>
+                    <Link href={`/${item.slug}`}>{item.title}</Link>
                   </div>
                   <p className="pdt-10 text-color-title-sidebar">
-                    {item.description}
+                    {item.description.slice(0,80)}...
                   </p>
                   <div className="flat-read-more">
                     {/* Hardcoded link */}
                     <Link
-                      href="/service-details"
+                     href={`/${item.slug}`}
                       className="themesflat-button font-default small"
                     >
                       <span>

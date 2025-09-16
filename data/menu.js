@@ -2,7 +2,6 @@ export const menuItems = [
   {
     title: "Home",
     href: "/",
-    className: "menu-item-has-children",
     subMenu: [],
   },
   {
@@ -12,29 +11,21 @@ export const menuItems = [
     subMenu: [
       { title: "About", href: "/about-us" },
       { title: "Doctor", href: "/doctor" },
-      { title: "Doctor Details", href: "/doctor-details" },
-      { title: "Our Pricing", href: "/pricing-table" },
+      // { title: "Doctor Details", href: "/doctor-details" },
+      // { title: "Our Pricing", href: "/pricing-table" },
       { title: "Gallery", href: "/gallery" },
-      { title: "FAQ", href: "/faq" },
+      // { title: "FAQ", href: "/faq" },
     ],
   },
   {
     title: "Services",
     href: "/services",
-    className: "menu-item-has-children",
-    subMenu: [
-      { title: "Services", href: "/services" },
-      { title: "Services Details", href: "/service-details" },
-    ],
+    subMenu: [],
   },
   {
     title: "Blog",
     href: "/blog-standard",
-    className: "menu-item-has-children",
-    subMenu: [
-      { title: "Blog Standard", href: "/blog-standard" },
-      { title: "Blog Details", href: "/blog-details" },
-    ],
+    subMenu: [],
   },
 
   {

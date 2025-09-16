@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { doctors3 } from "@/data/doctors";
-export default function Doctors() {
+import { doctors } from "@/data/doctors";
+export default function DoctorsPage() {
   return (
     <section className="team-doctor">
       <div className="container">
@@ -15,7 +15,7 @@ export default function Doctors() {
           />
         </div>
         <div className="row">
-          {doctors3.map((member) => (
+          {doctors.map((member) => (
             <div
               key={member.id}
               className="col-xl-4 col-lg-4 col-md-4 col-sm-12"
@@ -24,7 +24,7 @@ export default function Doctors() {
                 <div className="box-img-our-t">
                   <Image
                     alt="image"
-                    src={member.imageSrc}
+                    src={member.imgSrc}
                     width={320}
                     height={320}
                   />
@@ -45,18 +45,8 @@ export default function Doctors() {
                     data-mobile={10}
                     data-smobile={10}
                   />
-                  <p className="">{member.role}</p>
-                  <div className="fl-contact-docter">
-                    <ul>
-                      {member.socialLinks.map((social, index) => (
-                        <li key={index} className={social.className || ""}>
-                          <a href={social.url}>
-                            <i className={social.icon} />
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+                  {/* <p className="">{member.role}</p> */}
+                
                 </div>
               </div>
               <div

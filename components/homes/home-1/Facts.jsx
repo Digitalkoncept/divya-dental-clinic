@@ -86,19 +86,17 @@ export default function Facts() {
                   data-mobile={0}
                   data-smobile={30}
                 />
-                <div className="wrap-counter fl-st-title">
-                  <div className="title-heading">
-                    True Healthcare For
-                    <br />
-                    Your Family
-                  </div>
-                  <p className="text-color-white">
-                    The quick, brown fox jumps over a lazy dog. DJs flock by
-                    when MTV ax quiz prog. Junk MTV quiz graced by fox whelps.
-                    Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for
-                    quick jigs vex
-                  </p>
-                </div>
+            <div className="wrap-counter fl-st-title">
+  <div className="title-heading">
+    Comprehensive Dental Care
+    <br />
+    For You and Your Family
+  </div>
+  <p className="text-color-white">
+    Providing safe, effective, and personalized dental treatments to help you maintain a healthy smile and overall oral wellness.
+  </p>
+</div>
+
                 <div
                   className="themesflat-spacer clearfix"
                   data-desktop={0}

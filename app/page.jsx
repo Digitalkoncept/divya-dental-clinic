@@ -33,7 +33,7 @@ export default function Home() {
                   <Facts />
                   <Process />
                   <Contact />
-                  <Blogs />
+                  {/* <Blogs /> */}
                 </div>
               </div>
             </div>

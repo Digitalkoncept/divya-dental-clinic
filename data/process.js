@@ -4,9 +4,9 @@ export const processItems = [
     imageSrc: "/assets/image/common/process01.webp",
     title: "Cosmetic Dentistry",
     description:
-      "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog MTV quiz graced",
+      "Enhance your smile with safe and effective cosmetic dental treatments.",
     animationDelay: "0ms",
-    spacer: { desktop: 40, mobile: 40, smobile: 40 }, // Spacer data
+    spacer: { desktop: 40, mobile: 40, smobile: 40 },
     imageWidth: 241,
     imageHeight: 248,
   },
@@ -15,7 +15,7 @@ export const processItems = [
     imageSrc: "/assets/image/common/process02.webp",
     title: "Pediatric Dentistry",
     description:
-      "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog MTV quiz graced",
+      "Providing gentle and professional dental care tailored for children.",
     animationDelay: "100ms",
     imageWidth: 319,
     imageHeight: 292,
@@ -25,13 +25,14 @@ export const processItems = [
     imageSrc: "/assets/image/common/process03.webp",
     title: "Dental Implants",
     description:
-      "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog MTV quiz graced",
+      "Restore missing teeth with durable and natural-looking dental implants.",
     animationDelay: "200ms",
-    spacer: { desktop: 30, mobile: 30, smobile: 30 }, // Spacer data
+    spacer: { desktop: 30, mobile: 30, smobile: 30 },
     imageWidth: 270,
     imageHeight: 259,
   },
 ];
+
 
 export const process2 = [
   {

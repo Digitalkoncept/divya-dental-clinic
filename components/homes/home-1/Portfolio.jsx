@@ -18,14 +18,13 @@ export default function Portfolio() {
           <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
             <div className="wrap-portfolio wow fadeInDown">
               <h3 className="heading">PORTFOLIO</h3>
-              <div className="title-heading text-color-title-sidebar">
-                Case Study
-              </div>
-              <p className="text-color-title-sidebar">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-                est id leo luctus gravida a in ipsum. Vivamus vel molestie nisi.
-                Aliquam maximus maximu
-              </p>
+             <div className="title-heading text-color-title-sidebar">
+  Case Study
+</div>
+<p className="text-color-title-sidebar">
+  Explore how our expert dental services have improved patient care, enhanced smiles, and delivered lasting results.
+</p>
+
             </div>
           </div>
           {portfolioItems2.map((item) => (

@@ -1,7 +1,7 @@
 export const galleryItems = [
   {
     id: 1,
-    src: "/assets/image/common/gallery01.webp",
+    src: "/assets/image/gallery/1.jpg",
     width: 370,
     height: 360,
     categories: ["gl-medical", "gl-biography"],
@@ -10,7 +10,7 @@ export const galleryItems = [
   },
   {
     id: 2,
-    src: "/assets/image/common/gallery02.webp",
+    src: "/assets/image/gallery/2.jpg",
     width: 370,
     height: 360,
     categories: ["gl-medical"],
@@ -19,7 +19,7 @@ export const galleryItems = [
   },
   {
     id: 3,
-    src: "/assets/image/common/gallery03.webp",
+    src: "/assets/image/gallery/3.jpg",
     width: 370,
     height: 360,
     categories: ["gl-medical"],
@@ -28,7 +28,7 @@ export const galleryItems = [
   },
   {
     id: 4,
-    src: "/assets/image/common/gallery04.webp",
+    src: "/assets/image/gallery/4.jpg",
     width: 370,
     height: 360,
     categories: ["gl-doctor"],
@@ -37,7 +37,7 @@ export const galleryItems = [
   },
   {
     id: 5,
-    src: "/assets/image/common/gallery05.webp",
+    src: "/assets/image/gallery/5.jpg",
     width: 370,
     height: 360,
     categories: ["gl-doctor"],

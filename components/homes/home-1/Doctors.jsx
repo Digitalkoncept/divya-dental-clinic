@@ -62,31 +62,9 @@ export default function Doctors() {
                   <h2 className="name text-color-title-sidebar">
                     <Link href={`/doctor-details`}>{doctor.name}</Link>
                   </h2>
-                  <p className="pdt-8">Design Expert</p>
+                  {/* <p className="pdt-8">Design Expert</p> */}
                 </div>
-                <div className="social-doctor">
-                  <span className="grid-item">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </span>
-                  <span className="grid-item">
-                    <a href="#">
-                      {" "}
-                      <i className="fab fa-twitter" />{" "}
-                    </a>
-                  </span>
-                  <span className="grid-item">
-                    <a href="#">
-                      <i className="fab fa-google-plus-g" />
-                    </a>
-                  </span>
-                  <span className="grid-item">
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                  </span>
-                </div>
+                
                 <div
                   className="themesflat-spacer clearfix"
                   data-desktop={30}

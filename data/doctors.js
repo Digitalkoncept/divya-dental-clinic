@@ -1,34 +1,20 @@
 export const doctors = [
   {
-    name: "Doris Jordan",
-    imgSrc: "/assets/image/common/doctor01.webp",
+    name: "Dr.Pratyush Mohan",
+    imgSrc: "/assets/image/team/Dr.Pratyush_Mohan-Orthodontist-320X320.png",
     delay: "100ms",
   },
   {
-    name: "Diana Wagner",
-    imgSrc: "/assets/image/common/doctor02.webp",
+    name: "Dr.Divya",
+    imgSrc: "/assets/image/team/dr-divya-320x320.png",
     delay: "200ms",
+    
   },
   {
-    name: "Harry Garrett",
-    imgSrc: "/assets/image/common/doctor03.webp",
+    name: "Prakash Sharma",
+    imgSrc: "/assets/image/team/Prakash Sharma-Lab Technician-320x320.png",
     delay: "300ms",
-  },
-  {
-    name: "Doris Jordan",
-    imgSrc: "/assets/image/common/doctor01.webp",
-    delay: "100ms",
-  },
-  {
-    name: "Diana Wagner",
-    imgSrc: "/assets/image/common/doctor02.webp",
-    delay: "200ms",
-  },
-  {
-    name: "Harry Garrett",
-    imgSrc: "/assets/image/common/doctor03.webp",
-    delay: "300ms",
-  },
+  }
 ];
 
 export const doctors2 = [

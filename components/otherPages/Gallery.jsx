@@ -67,25 +67,7 @@ export default function Gallery() {
             data-smobile={70}
           />
         </div>
-        <div className="row">
-          <div className="col-12">
-            <div className="box-list-gallery wow fadeInUp">
-              <ul className="flat-filter-isotope">
-                {tabs.map((tab) => (
-                  <li
-                    key={tab.id}
-                    className={activeTab === tab.filter ? "active" : ""}
-                    onClick={() => handleTabClick(tab.filter)}
-                  >
-                    <Link href={`/gallery`} data-filter={tab.filter}>
-                      {tab.title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
+        
         <div className="row">
           <div
             className="themesflat-spacer clearfix"
@@ -107,6 +89,7 @@ export default function Gallery() {
                     src={item.src}
                     width={item.width}
                     height={item.height}
+                    style={{maxHeight:"277px"}}
                   />
                   <div className="overlay">
                     <h4 className="text-color-title-sidebar">
